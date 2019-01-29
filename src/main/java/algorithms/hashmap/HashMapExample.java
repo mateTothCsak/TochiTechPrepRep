@@ -1,6 +1,6 @@
 package algorithms.hashmap;
 
-public class Main {
+public class HashMapExample {
 
     public static void main(String[] args) throws Exception {
         MyHashMap hashm = new MyHashMap();

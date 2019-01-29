@@ -1,6 +1,6 @@
 package algorithms.stack;
 
-public class Main {
+public class StackExample {
 
     public static void main(String[] args) throws Exception {
         Stack stack = new Stack(8);
