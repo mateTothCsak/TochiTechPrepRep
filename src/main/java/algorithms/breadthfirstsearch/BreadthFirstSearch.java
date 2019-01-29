@@ -1,6 +1,4 @@
-package algorithms.bfs;
-
-import sun.reflect.annotation.ExceptionProxy;
+package algorithms.breadthfirstsearch;
 
 import java.util.HashSet;
 import java.util.List;
