@@ -37,6 +37,8 @@ public class BaeldungBinarySearchTree {
 
 
 
+
+
     private Node addRecursive(Node current, int value){
         if (current == null){
             return new Node(value);

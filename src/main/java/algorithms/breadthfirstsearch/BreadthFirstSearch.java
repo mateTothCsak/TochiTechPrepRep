@@ -11,19 +11,14 @@ public class BreadthFirstSearch {
         HashSet<UserNode> friendsSet = user1.getFriends();
         while(distance < users.size()) {
             distance += 1;
-            int tempLastElement = friendsSet.size()-1;
             if (friendsSet.contains(user2)) {
                 return distance;
             }
             for (UserNode user : friendsSet){
-                /*
                 HashSet<UserNode> tempSet = new HashSet<UserNode>(friendsSet);
                 tempSet.addAll(user.getFriends());
                 friendsSet = tempSet;
-                */
-                friendsSet.addAll(user.getFriends());
             }
-            lastElement = tempLastElement;
         }
 
         throw new Exception("User to be found not connected with main user");
@@ -34,12 +29,9 @@ public class BreadthFirstSearch {
         HashSet<UserNode> friendsSet = user.getFriends();
         for (int i = 0; i<reach-1; i++){
             for(UserNode friend : friendsSet){
-                /*
                 HashSet<UserNode> tempSet = new HashSet<UserNode>(friendsSet);
                 tempSet.addAll(friend.getFriends());
                 friendsSet = tempSet;
-                */
-                friendsSet.addAll(friend.getFriends());
             }
         }
         return friendsSet;
