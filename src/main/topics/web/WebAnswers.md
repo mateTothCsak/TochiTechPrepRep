@@ -237,6 +237,7 @@ User Datagram Protocol is used by apps to deliver faster stream of information w
 
 
 ### How does an HTTP Request look like? What are the most relevant HTTP header fields?
+![HTTP Request](../../resources/images/httprequest.png)
 
 
 
