@@ -168,7 +168,7 @@ When to use?
 **REST** = Representational State Transfer
 **API** = Application Programming Interface
 
-REST is an architectural style that defines a set of constraints to be used for creating we services.
+REST is an architectural style that defines a set of constraints to be used for creating web services.
 Web Services that conform to REST are also called RESTful services, and they provide interoperability between computer systems on the Internet.
 
 REST-compilant web services allow the requesting systems to access and manipulate textual representations of web resources by using a uniform and predefined set of stateless operations.
